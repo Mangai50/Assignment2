@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edyoda Stories</title>
+  <style>
+     
+    #header {
+        background-color:#fff;
+        padding-right: 0px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0px 0.3px 0px #333638;
+        
+    }
+    .logo {
+      
+        width: 130px;
+        font-size: 32px;
+        color: #0084ff;
+        font-family: Raleway,sans-serif;
+        margin: 0px;
+        padding: 0px;
+        font-weight: 900;
+        line-height: 1.08;
+        text-transform: uppercase;
+    }
+    .logo-text { 
+            
+        margin: 0;
+        font-weight: 500;
+        font-family: 'Raleway', sans-serif;
+        font-style: italic;
+    }
+      
+    .dropdown-text{
+        padding-left: 78px;
+        padding-top: 0px;
+        
+    }
+      
+    .top-section {
+        width: 60%;
+        margin-left: 200px;
+        margin-right: auto;
+        padding-top: 16px;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+   .heading {
+    color:black;
+        font-weight: 600;
+        margin: 0px;
+    }
+    #categories {
+        font-size: 14px;
+        font-weight: 600;
+        margin-left: 8px;
+    
+    }
+    .category-container {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+        padding-top: 16px;
+        font-size: 16px;
+    }
+    .list-items {
+        padding: 6px 14px;
+        width:auto;
+        color: #0084ff;
+        border-radius: 15px;
+        border: 1px solid #0084ff;
+        margin: 5px;
+        cursor: pointer;
+    }
+    top p:hover{
+        color: white;
+        background-color:#0084ff;;
+    }
+
+    #main-section{
+        background-color: #e8f4f6;
+        padding: 0px;
+    }
+    #active-category {
+        color: white;
+        background-color: #0084ff;
+    }
+    #article-section {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .post-container {
+        width: calc(33.3% - 16px);
+        margin-left: 20px;
+        background-color: white;
+        padding-bottom: 30px;
+        border-radius: 5px;
+        box-shadow: 0 0 3px #0084ff;
+        margin: 8px;
+    }
+    .post-section {
+        height: 176px;
+        width: 100%;
+    }
+    .section-image {
+        height: 100%;
+        width: 100%;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+    .text-section {
+        padding-left: 24px;
+        padding-top: 10px;
+        padding-right: 24px ;
+    }
+
+    .title {
+        font-size: 18px;
+        text-align: left;
+        margin: 0;
+        font-weight: 600;
+    }
+    .author-container {
+        padding-left: 24px;
+        padding-top: 4px;
+        display: flex;
+    }
+    .author {
+        color: #0096ff;
+        font-size: 14px;
+        font-style: italic;
+        font-weight: 500;
+    }
+    .date {
+        font-size: 14px;
+        color: rgba(0, 0, 0, 0.7);
+        font-weight: 300;
+    }
+    .normal-text {
+    padding:24px
+    }
+    .text {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.43;
+        color: rgba(0, 0, 0, 4);
+        margin-bottom: 4px;
+    }
+    footer{
+        background: #172146;
+        padding: 80px 16%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        color: white;
+    }
+    footer h3{
+        color:#a25d4c;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: 500;
+        margin: 20px 0;
+
+    }
+    footer p{
+        margin: 10px 0;
+        font-size: 15px;
+        text-transform: capitalize;
+        font-weight: lighter;
+        line-height: 20px;
+    }
+  </style>
+</head>
+<body>
+    <!-- HEADER SECTION -->
+    <header id="header">
+        <div class="topbar">
+        <h2 class="logo">EDYODA</h2>
+        <p class="logo-text">stories</p>
+        </div>
+        <div>
+        <h3 class="dropdown-text">Explore Categories &#9662</h3>
+        </div>
+        
+    </header>
+    <!-- MAIN SECTION-->
+    <main id="main-section">
+    <div class="top-section">
+        <h2 class="heading">Trending Posts</h2>
+        <div>
+            <p id="Categories"><img src="funnel-159670_640.webp" alt="funnel" width="10" height="10"> Filter By Category</p>
+        </div>
+        <!-- List-items -->
+        <top>
+        <div class="category-container">
+            <p class="list-items" id="active-category">All</p>
+            <p class="list-items">Artificial Intelligence</p>
+            <p class="list-items">Cloud Computing</p>
+            <p class="list-items">Dev Ops</p>
+            <p class="list-items">Programming languages</p>
+            <p class="list-items">Mobile Application Development</p>
+            <p class="list-items">Technology & Tools</p>
+            <p class="list-items">Get A Job in Tech Company</p>
+            <p class="list-items">Others</p>
+        </div>
+        </top>
+    </div>
+    <!-- article section includes seperate post sections -->
+    <article id="article-section">
+    <!-- section 1 -->
+    <div class="post-container">
+        <div class="post-section">
+            <img src="https://edyoda.s3.amazonaws.com/media/blog-images/learn_machine_learning_courses_online.png" alt="Machine Learning Online Course" class="section-image">
+        </div>
+        <div class="text-section">
+            <h3 class="title">Introduction to Machine Learning Online Course</h3>
+        </div>
+        <div class="author-container">
+            <h3 class="author">Edyoda</h3>
+            <h3 class="date"> | 23 Aug 2019</h3>
+        </div>
+        <div class="normal-text">
+            <p class="text">We have had an insight into Artificial Intelligence. Well, one of its subfields is machine learning and this introduction will help you get a fair idea of what this machine learning online course holds</p>
+        </div>
+    </div>
+    <!-- section 2 -->
+    <div class="post-container">
+        <div class="post-section">
+            <img src="https://edyoda.s3.amazonaws.com/media/blog-images/6.png" alt="LAMP Stack Vs MEAN stack" class="section-image">
+        </div>
+        <div class="text-section">
+            <h3 class="title">LAMP Stack Vs MEAN stack: Choosing the right platform</h3>
+        </div>
+        <div class="author-container">
+            <h3 class="author">Edyoda</h3>
+            <h3 class="date"> | 24 Aug 2019</h3>
+        </div>
+        <div class="normal-text">
+            <p class="text">In today’s dynamic world, developing a rapid application with a smooth user interface that can adapt to specific features is the main business requirement. Many organizations</p>
+        </div>
+    </div>
+    <!-- section 3 -->
+    <div class="post-container">
+        <div class="post-section">
+            <img src="https://edyoda.s3.amazonaws.com/media/blog-images/4.png" alt="Cloud Computing in various industries" class="section-image">
+        </div>
+        <div class="text-section">
+            <h3 class="title">Impact of Cloud Computing in various industries</h3>
+        </div>
+        <div class="author-container">
+            <h3 class="author">Edyoda</h3>
+            <h3 class="date"> | 24 Aug 2019</h3>
+        </div>
+        <div class="normal-text">
+            <p class="text">Cloud computing has been rapidly gaining pace in the world of information technology. It has been observed that over 90% of global enterprises are using cloud</p>
+        </div>
+    </div>
+    <!-- section 4 -->
+    <div class="post-container">
+        <div class="post-section">
+            <img src="https://edyoda.s3.amazonaws.com/media/blog-images/3.png" alt="Challenges of Machine Learning in Big Data" class="section-image">
+        </div>
+        <div class="text-section">
+            <h3 class="title">Challenges of Machine Learning in Big Data</h3>
+        </div>
+        <div class="author-container">
+            <h3 class="author">Edyoda</h3>
+            <h3 class="date"> | 24 Aug 2019</h3>
+        </div>
+        <div class="normal-text">
+            <p class="text">Machine Learning is a subset of artificial intelligence which is an important part of computer science. The revolution of Big Data promises to transform the way we work, live and...</p>
+        </div>
+    </div>
+    <!-- section 5 -->
+    <div class="post-container">
+        <div class="post-section">
+            <img src="https://edyoda.s3.amazonaws.com/media/blog-images/5.png" alt="Breaking the Myths around Cybersecurity" class="section-image">
+        </div>
+        <div class="text-section">
+            <h3 class="title">Breaking the Myths around Cybersecurity</h3>
+        </div>
+        <div class="author-container">
+            <h3 class="author">Edyoda</h3>
+            <h3 class="date"> | 26 Aug 2019</h3>
+        </div>
+        <div class="normal-text">
+            <p class="text">Cybersecurity plays an integral role in the process of good business models. But even cybersecurity programs built with good intentions can fall short in front of advanced cyber attacking</p>
+        </div>
+    </div>
+    <!-- section 6 -->
+    <div class="post-container">
+        <div class="post-section">
+            <img src="https://edyoda.s3.amazonaws.com/media/blog-images/7.png" alt="Importance of Data Backup and Recovery in the IT" class="section-image">
+        </div>
+        <div class="text-section">
+            <h3 class="title">Importance of Data Backup and Recovery in the IT</h3>
+        </div>
+        <div class="author-container">
+            <h3 class="author">Edyoda</h3>
+            <h3 class="date"> | 25 Sep 2019</h3>
+        </div>
+        <div class="normal-text">
+            <p class="text">A business must always introspect the areas where they lack in order to bring about a positive change in the work environment. One of the main precautions or a contingency plan th...</p>
+        </div>
+    </div>
+    <!-- section 7 -->
+    <div class="post-container">
+        <div class="post-section">
+            <img src="https://edyoda.s3.amazonaws.com/media/blog-images/automation-testing-an-overview-2.png" alt="What is Web Scraping?" class="section-image">
+        </div>
+        <div class="text-section">
+            <h3 class="title">What is Web Scraping?</h3>
+        </div>
+        <div class="author-container">
+            <h3 class="author">Zac Clancy</h3>
+            <h3 class="date"> | 25 Sep 2019</h3>
+        </div>
+        <div class="normal-text">
+            <p class="text">Simply put, web scraping is one of the tools developers use to gather and analyze information from the internet. Some...</p>
+        </div>
+    </div>
+    <!-- section 8 -->
+    <div class="post-container">
+        <div class="post-section">
+            <img src="https://edyoda.s3.amazonaws.com/media/blog-images/what_is_isa_blog_1.png" alt="What is Income Share" class="section-image">
+        </div>
+        <div class="text-section">
+            <h3 class="title">What is Income Share Agreement?</h3>
+        </div>
+        <div class="author-container">
+            <h3 class="author">Edyoda</h3>
+            <h3 class="date"> | 14 Oct 2019</h3>
+        </div>
+        <div class="normal-text">
+            <p class="text">The term Income Share Agreement has been around for a long time since 1955 to be precise. Surprised, eh? It was first</p>
+        </div>
+    </div>
+    <!-- section 9 -->
+    <div class="post-container">
+        <div class="post-section">
+            <img src="https://edyoda.s3.amazonaws.com/media/blog-images/practical_machine_learning_1.png" alt="" class="section-image">
+        </div>
+        <div class="text-section">
+            <h3 class="title">Practical Machine Learning with...</h3>
+        </div>
+        <div class="author-container">
+            <h3 class="author">Daniel Pyrathon</h3>
+            <h3 class="date"> | 16 Oct 2019</h3>
+        </div>
+        <div class="normal-text">
+            <p class="text">Machine learning is a field of artificial intelligence that uses statistical techniques to give computer systems...</p>
+        </div>
+    </div>
+    </article>
+    </main>
+    <!-- FOOTER SECTION -->
+    <footer>
+        <div class="edyoda-container">
+            <h3>edyoda</h3>
+        <p>about us</p>
+        <p>contact us</p>
+        <p>terms of use</p>
+        <p>privacy policy</p>
+        </div>
+        <div class="resorce-contanier">
+            <h3>resorces</h3>
+        <p>learning path</p>
+        <p>courses</p>
+        <p>learning videos</p>
+        <p>educatores</p>
+        <p>edyoda stories</p>
+        <p>university</p>
+        </div>
+        <div class="forEnterprises-container">
+        <h3>for enterprises</h3>
+        <p>train your employees</p>
+        <div class="quiq-link">
+            <h3>quick links</h3>
+        <p>learn and earn</p>
+        <p>became a learning eligibler</p>
+        <p>request to new topic</p>
+        <p>certification</p>
+        </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
